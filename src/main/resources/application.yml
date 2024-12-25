@@ -1,0 +1,18 @@
+
+server:
+  port: 8081
+
+spring:
+  profiles:
+    active: dev
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+
+
+missyou:
+  api-package: com.niu.api
